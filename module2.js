@@ -53,3 +53,69 @@ console.log(7>8);
 console.log(5<=6);
 console.log(6>=6)
 */
+//conditional statement
+/*
+var iponePrice=790000;
+var myBudget=67000000;
+if(iponePrice<myBudget){
+    console.log("i will buy the iphone");
+}else{
+    console.log("i can't afford it")
+}
+*/
+//muliple condition test for &&
+/*
+var isGraduated=true;
+var salary=53000;
+var car=2;
+if(isGraduated == true && salary > 50000 && car>=1){
+     console.log("cholo biye kore feli");
+
+}else{
+    console.log("taratari biye kor")
+}
+*/
+//muliple condition test for ||
+/*
+var isGraduated=true;
+ var salary=45777;
+if (isGraduated == true || salary==30875){
+    console.log("let's do it")
+}else{
+
+    console.log("done")
+}
+*/
+//else-if   test
+/*
+var money =10;
+var danishPrice=65;
+var butterBread=45;
+var toastBiscuit=33;
+if(danishPrice<money){
+    console.log("Danish khabo")
+}
+else if(butterBread<money){
+    console.log("butterbon khabo")
+}
+else if(toastBiscuit<money){
+    console.log("toastbiscut khabo")
+}
+else{
+    console.log("cha khabo")
+}
+*/
+//nested if 
+/*
+var math=true;
+var geometry=true;
+var line=false;
+if(math == ture){
+    if(geometry==true){
+        if(     )
+
+    }
+}else{
+    console.log("ki porli atodin")
+}
+*/
