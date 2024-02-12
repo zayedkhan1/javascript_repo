@@ -72,3 +72,11 @@ console.log(reminder)
 */
 
 //problem solving
+/*
+var applePrice=200;
+var ornagePrice=160;
+var productPrice=applePrice+ornagePrice;
+var netAmount = 1000;
+var returnAmount=netAmount-productPrice;
+console.log(returnAmount);
+*/
