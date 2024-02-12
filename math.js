@@ -70,7 +70,7 @@ var person =7;
 var reminder=mangoes%person;
 console.log(reminder)
 */
-
+ 
 //problem solving
 /*
 var applePrice=200;
@@ -80,3 +80,13 @@ var netAmount = 1000;
 var returnAmount=netAmount-productPrice;
 console.log(returnAmount);
 */
+ 
+//two types of number
+//Integers::76;
+//float/decimal::76.8;
+//variable naming convension: rules,best practice
+//should use camelcase for declaring variable name
+//Math operations: +,-,*,/,%
+//shorthand +=, -=, ++, --
+//convert:parseInt
+
