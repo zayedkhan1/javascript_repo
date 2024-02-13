@@ -135,7 +135,8 @@ while(number<9){
     number++;
 }
 */
-//even number
+//sum of 10 number
+/*
 var sum=0;
 var number=0;
 while( number <= 10){
@@ -144,3 +145,25 @@ while( number <= 10){
     console.log(sum);
     number=number+1;
 }
+*/
+//foor loop
+/* 
+for(var number=1;number<10;number++){
+    console.log( number);
+} */
+//dsplay array by using loop
+/*
+var numbers=[45, 75, 43, 24, 75, 32, 65];
+numbers.push(77, 88);
+for( var i=0; i<numbers.length; i++){
+    console.log(numbers[i]);
+}
+*/
+/* 
+var names=['Ali', 'kodom', 'sohid', 'ohid'];
+names.push('sohid', 'afridi');
+names.shift();
+for (var i=0;i<=names.length;i++){
+    console.log(names[i]);
+} */
+
