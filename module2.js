@@ -119,3 +119,28 @@ if(math == ture){
     console.log("ki porli atodin")
 }
 */
+// (while loop) loop testing
+/*
+var roastGiven=0;
+while(roastGiven < 7){
+    console.log("Roast dn please")
+    console.log(roastGiven);
+    roastGiven+=1;
+}
+*/
+/*
+var number=6;
+while(number<9){
+    console.log(number);
+    number++;
+}
+*/
+//even number
+var sum=0;
+var number=0;
+while( number <= 10){
+    sum = sum + number;      
+
+    console.log(sum);
+    number=number+1;
+}
