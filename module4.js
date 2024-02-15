@@ -109,6 +109,8 @@ else if(color== 'yellow'){
 
 }
  */
+//
+/* 
 const color='yellow';
 
 switch(color){
@@ -124,8 +126,23 @@ switch(color){
                 default:
                     console.log("you are not my friend")
 
-
-
-
-
+} */
+//
+/* 
+var student={
+    name:'zisad',
+    id:"45g",
+    bottle:'green'
 }
+student['id']='87g'
+console.log(student) */
+//
+function foo(){
+    console.log('foo')
+    function bar(){
+    console.log('bar') 
+}
+ bar();
+}
+foo();
+
