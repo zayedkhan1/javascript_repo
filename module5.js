@@ -66,7 +66,7 @@ function evenOrOdd(number){
 console.log(' is this a even nmber: ',    value);
  */
 //leap year or not usnig function
-
+/* 
 function isLeapYear(year){
     if(year % 4 == 0){
 return true;    }
@@ -75,3 +75,54 @@ return true;    }
 }
 const value= isLeapYear(2024);
 console.log( 'is leap year :', value)
+ */
+//find sum from array
+/* 
+function getSum(array){
+    let sum=0;
+    for(let i=0; i<array.length;i++){
+        sum+=array[i];
+        console.log( i,array[i],sum);
+
+    }
+    return sum;
+}
+const myArray=[34,56,76,55,44,33,31,99];
+getSum(myArray)
+ */
+//
+/* 
+function getMySum(array){
+    let sum=0;
+    for(let i=0;i<array.length;i++){
+        sum=sum+array[i];
+        console.log(array[i],sum)
+    }
+    return sum;
+
+}
+let arrayValue=[34,64,65,64,32];
+getMySum(arrayValue);
+  */
+//get odd numbers of an array
+/* 
+function getOddNumbersOfArray(numbers){
+  
+    let oddNumbers=[];
+    for(let i=0;i<numbers.length;i++){
+
+    
+        if(numbers[i] % 2 !=0){
+            console.log(i,numbers[i]);
+            oddNumbers.push(numbers[i]);
+
+        }
+    }
+    return oddNumbers;  
+}
+let myNumbers=[32,11,31,23,45,66,77,88,86];
+ let oddNumbers= getOddNumbersOfArray(myNumbers);
+ console.log(oddNumbers);
+  */
+ //
+ 
