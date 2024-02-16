@@ -136,13 +136,37 @@ var student={
 }
 student['id']='87g'
 console.log(student) */
-//
+//problem-1
+/* 
 function foo(){
     console.log('foo')
     function bar(){
     console.log('bar') 
 }
- bar();
+bar();
 }
 foo();
+ */
+//problem-2
+/* 
+function make_avg(x,y,z){
+   var  sum=x+y+z;
+   var avarage=sum/3;
+   return avarage;
 
+}
+var avg=make_avg(45,45,45);
+console.log(avg);
+ */
+//
+/* 
+function make_avg(x){
+
+    var sum=0
+    var myAvg=make_avg.reduce(x);
+    var getAvg=myAvg/make_avg.length;
+
+         return getAvg;
+}
+     console.log(make_avg([1,2,3,4,5])) ; */
+     
