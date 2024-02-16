@@ -7,7 +7,6 @@
 //function
 //object
 //inch to feet in js
-
 //
 /* 
 const Inches=12;
@@ -124,5 +123,51 @@ let myNumbers=[32,11,31,23,45,66,77,88,86];
  let oddNumbers= getOddNumbersOfArray(myNumbers);
  console.log(oddNumbers);
   */
- //
+ //claculation multiplication
+/* 
+ function sumOfNumbers(number){
+    let mul=1;
+ for(i=1;i<=number;i++){
+    mul=mul*i;
+    console.log(i,mul)
+
+ }
+ return mul;
  
+ }
+ sumOfNumbers(6); */
+//calculation factorial 5!
+/* 
+function factorial(number){
+    mul=1;
+    for(let i=1;i<=number;i++){
+        mul*=i;
+        console.log(i,mul)
+    }
+    return mul;
+}
+factorial(5); */
+//factorial in reversre way
+/* 
+function factorial(number){
+    let reasult=1;
+    for( let i=number;i>=1;i--){
+        reasult*=i;
+        console.log(i);
+    }
+    return reasult;
+}
+let number=6;
+ let fact= factorial(number);
+ console.log( 'factorial of : ',number, '-is :', fact) */
+//degabbing 
+/* 
+function getFactorial(number){
+    let factorial=1;
+    for (let i=1;i<=7;i++){
+        factorial=factorial*i;
+    }
+    return factorial;
+}
+const factorial =getFactorial(7);
+console.log( factorial) */
