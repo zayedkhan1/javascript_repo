@@ -8,7 +8,7 @@
 //object
 //inch to feet in js
 //
-/* 
+ 
 const Inches=12;
 const Feet= Inches/12;
 console.log(Feet);
@@ -20,18 +20,18 @@ console.log(dadaFeet);
 const dadiInches=60;
 const dadiFeet=dadiInches/12;
 console.log(dadiFeet);
- */
+ 
 //inches to feet conversiton using function
-/* 
+
 function convertClaculator(inches){
     const feet=inches/12;
     return feet;
 }
 const myInches=564;
 const myFeet=convertClaculator(myInches);
-console.log(myFeet); */
+console.log(myFeet); 
 // mile to km conversiton using function
-/* 
+ 
 function mileToKm(kilometer){
     const mile=kilometer/0.621371;
     return mile;
@@ -40,9 +40,9 @@ const atalpurToKanchan=6.5;
 const calculateMile=mileToKm(atalpurToKanchan);
 const gawsiaToPaiska=10;
 const calculateGawsiaMile=mileToKm(gawsiaToPaiska);
-console.log(calculateMile,calculateGawsiaMile); */
+console.log(calculateMile,calculateGawsiaMile); 
 //  kg to gram conversiton using function
-/* 
+
 function kgToGram(kg){
     const gram=kg*1000;
     return gram;
@@ -51,9 +51,9 @@ function kgToGram(kg){
 const myPotatoInKg=5;
 const myPotatoInGram=kgToGram(myPotatoInKg);
 console.log(myPotatoInGram);
-    */
+    
 // odd even by using function
-/* 
+ 
 function evenOrOdd(number){
     if(number % 2==0){
         return true;
@@ -61,22 +61,22 @@ function evenOrOdd(number){
         return false;
     }
 }
- const value = evenOrOdd(88);
+ const val = evenOrOdd(88);
 console.log(' is this a even nmber: ',    value);
- */
+ 
 //leap year or not usnig function
-/* 
+
 function isLeapYear(year){
     if(year % 4 == 0){
 return true;    }
     else{
  return false;             }
 }
-const value= isLeapYear(2024);
+const value = isLeapYear(2024);
 console.log( 'is leap year :', value)
- */
+ 
 //find sum from array
-/* 
+
 function getSum(array){
     let sum=0;
     for(let i=0; i<array.length;i++){
@@ -88,9 +88,9 @@ function getSum(array){
 }
 const myArray=[34,56,76,55,44,33,31,99];
 getSum(myArray)
- */
+ 
 //
-/* 
+ 
 function getMySum(array){
     let sum=0;
     for(let i=0;i<array.length;i++){
@@ -102,9 +102,9 @@ function getMySum(array){
 }
 let arrayValue=[34,64,65,64,32];
 getMySum(arrayValue);
-  */
+  
 //get odd numbers of an array
-/* 
+ 
 function getOddNumbersOfArray(numbers){
   
     let oddNumbers=[];
@@ -122,9 +122,9 @@ function getOddNumbersOfArray(numbers){
 let myNumbers=[32,11,31,23,45,66,77,88,86];
  let oddNumbers= getOddNumbersOfArray(myNumbers);
  console.log(oddNumbers);
-  */
+  
  //claculation multiplication
-/* 
+ 
  function sumOfNumbers(number){
     let mul=1;
  for(i=1;i<=number;i++){
@@ -135,9 +135,9 @@ let myNumbers=[32,11,31,23,45,66,77,88,86];
  return mul;
  
  }
- sumOfNumbers(6); */
+ sumOfNumbers(6); 
 //calculation factorial 5!
-/* 
+
 function factorial(number){
     mul=1;
     for(let i=1;i<=number;i++){
@@ -146,9 +146,9 @@ function factorial(number){
     }
     return mul;
 }
-factorial(5); */
+factorial(5); 
 //factorial in reversre way
-/* 
+
 function factorial(number){
     let reasult=1;
     for( let i=number;i>=1;i--){
@@ -159,9 +159,9 @@ function factorial(number){
 }
 let number=6;
  let fact= factorial(number);
- console.log( 'factorial of : ',number, '-is :', fact) */
+ console.log( 'factorial of : ',number, '-is :', fact) 
 //degabbing 
-/* 
+
 function getFactorial(number){
     let factorial=1;
     for (let i=1;i<=7;i++){
@@ -170,4 +170,29 @@ function getFactorial(number){
     return factorial;
 }
 const factorial =getFactorial(7);
-console.log( factorial) */
+console.log( factorial) 
+ 
+let array=['jao','felix','barnando', 'silva'];
+ let vale= array.includes('saaa');
+console.log(value) 
+//
+ 
+const arr1=[4,5,67,7];
+const arr2=['sala','messi'];
+const newArra=arr1.concat(arr2);
+console.log(newArray); 
+//
+
+const arr=[34,5,6,7,3,45];
+ const newArray= arr.splice(0,4);
+ console.log(newArray) 
+ //
+  let students={
+    name:'tony',
+    id:'23-51421-1'
+  }
+  console.log(students["name"])
+
+  students['id']=45;
+  console.log(students.id);
+
