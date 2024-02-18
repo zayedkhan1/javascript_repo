@@ -1,5 +1,5 @@
 
-/*
+
 var myStr1 ='hlw sobaike ,ki obostha sobar';
 var value=myStr1.length;
 console.log(value);
@@ -14,7 +14,7 @@ const firstName="Goru ";
 const lastName='gari';
 const fullName=firstName+lastName;
 console.log(fullName);
-let first='ena';
+let firstBN='ena';
 first=first+ " poribohon";
 console.log(first);
 //
@@ -48,8 +48,8 @@ console.log(lyrics.split(''));
 //trim 
 const country=' Bangladesh ';
 console.log(country.trim());
-*/
-/*
+
+
 //
 
 let get=Math.pow(3,5);
@@ -87,7 +87,7 @@ second=tmep;
  // DEstructuring 
 [first,second ] =[second,first]
 console.log(first,second);
-*/
+
 //
 const jim=69;
 const dela=99;
