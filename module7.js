@@ -1,6 +1,6 @@
 
 
-/*
+
 const country='sonar bangla desh';
 const age=52;
 const isIndependent=true;
@@ -43,7 +43,7 @@ function removeDuplicate(stark){
  console.loog(removeDuplicate(stark[t]));
 */
 //
-/*
+
 for(let i=1;i<=50;i++){
     var thor=[i];
     if(thor % 3==0 && thor % 5==0){
@@ -130,7 +130,7 @@ var shoppingCart=[
    }
    let sow=priceTool(shoppingCart);
    console.log('total price: ', sow);
-   */
+  
 /*
 1.if ticket numbe ris less than 100,per ticekt price:100
 2.if ticekt number is more than 100,but less than 200,firse 100 tickets will be 100 taka,rest tickets will 90 taka per piece
