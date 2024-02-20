@@ -139,6 +139,19 @@ first 100-->100
 101-200-->90
 200+-->70taka
 */
+
+//
+
+const name5='dkfh;';
+let heisAmazing=true;
+let number5=66;
+console.log(name5,number5,heisAmazing);
+
+
+
+
+
+
    
    
    

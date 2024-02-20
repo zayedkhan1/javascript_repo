@@ -1,3 +1,5 @@
+
+/*
 //function expression
 let expression=function(x,y){
     let sum=x+y;
@@ -69,3 +71,68 @@ function foo(){
     bar();
 }
 foo();
+*/
+//part-2
+const name1='dkfh;';
+var heisAmazing=true;
+let number1=66;
+console.log(name1,number1,heisAmazing);
+//
+const name2='kopaSamsu';
+let number2=67;
+number2=87;
+console.log(name2,number2);
+//
+var x1=55;
+var y1=55;
+var reasult=(x1+y1);
+console.log(reasult);
+//
+var a=65;
+var b=74;
+
+if(a>b){
+    console.log("i am bigger",a)
+}
+else{
+    console.log('he is bigger',b)
+}
+//
+var i=7;
+while(i<=19){
+    if(i % 2 !== 0){
+        console.log(i)
+
+    }
+    i++;
+
+}
+//
+var arr=[45,75,543,3566];
+for(let i=0;i<arr.length;i++){
+    console.log(arr[i])
+}
+//
+var array=[64,97,65,43,88,86,44,3,2,455,754,3,5,7];
+for(let i=0;i<=array.length;i++){
+    if(array[i]>80){
+        console.log( array[i])
+
+    }
+}
+console.log("::::::::::::::: siuuuu ::::::::::::::::")
+//
+var  emotion=[56,74,354,78,86,43,21,6];
+let out=emotion.pop(8);
+emotion[3]=99;
+let repp=emotion[6]+emotion[7];
+console.log(emotion.length,emotion,repp,out);
+//
+var obee={
+    name6:'kallooo',
+    age:645,
+    feminest:'yes'
+}
+ obee.feminest='gooo';
+console.log( obee);
+
