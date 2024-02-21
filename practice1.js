@@ -140,3 +140,37 @@ console.log( obee);
 
 */
 //
+ function CentimeterToMeter(cent){
+    var meter=cent*100;
+    return meter;
+ }
+ var reasult=CentimeterToMeter(5);
+ console.log(reasult);
+ //
+ var numbers=[45,75,32,34,0,8,-5,76,978,-7,-2,3];
+ for(let i=0;i<=numbers.length;i++){
+    if(numbers[i]<0){
+
+        break;
+    }
+    let number=[(numbers[i])];
+
+    console.log(number);
+
+ }
+ //
+ function BestFriend(best){
+    let max=best[0];
+    for(let i=0;i<=best.length;i++){
+        if(max<best[i]){
+            console.log(best[i])
+        }
+        else{
+            console.log(max)
+        }
+    }
+
+ }
+ var friend= BestFriend(['jodu','modu','kodu','kudduss','apel','komola']) ;
+ 
+
