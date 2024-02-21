@@ -72,6 +72,8 @@ function foo(){
 }
 foo();
 */
+
+/*
 //part-2
 const name1='dkfh;';
 var heisAmazing=true;
@@ -136,3 +138,5 @@ var obee={
  obee.feminest='gooo';
 console.log( obee);
 
+*/
+//
