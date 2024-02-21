@@ -174,3 +174,13 @@ console.log( obee);
  var friend= BestFriend(['jodu','modu','kodu','kudduss','apel','komola']) ;
  
 
+//
+function totalPage(x,y,z){
+    var firstBook=x*100;
+    var secondBook=y*200;
+    var thirdBook=z*300;
+    var total=firstBook+secondBook+thirdBook;
+    return total;
+}
+var books=totalPage(2,4,5);
+console.log(books);
